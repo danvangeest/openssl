@@ -37,6 +37,16 @@ OpenSSL 3.6
 
    *Frederik Wedel-Heinen*
 
+ * Added KEMRecipientInfo (RFC 9629) and ML-KEM (draft-ietf-lamps-cms-kyber)
+   support to CMS.
+
+   *Daniel Van Geest (CryptoNext Security)*
+
+ * HKDF with (SHA-256,SHA-384,SHA-512) has assigned OIDs. Added ability to load
+   HKDF configured with these explicit digests by name or OID.
+
+   *Daniel Van Geest (CryptoNext Security)*
+
 OpenSSL 3.5
 -----------
 
